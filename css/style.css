@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.ajuste-nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    background: #BE89CB;
+}
+
+.ajuste-nav  nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+.lista-alinhamento {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.lista-alinhamento li>a {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    background-color: #EAEAEA;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.sub_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome {
+    font-size: 36px;
+    color: rgba(255, 77, 188, 1);
+    font-weight: 700;
+    height: 45px;
+}
+
+.descricao {
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    height: 45px;
+}
+
+.sobre_area {
+    line-height: 32px;
+    color: rgba(197, 192, 192, 1);
+    font-size: 20px;
+    height: 60px;
+}
+
+img {
+    width: 180px;
+    height: 230px;
+    border-radius: 45%;
+    background: url(../img/Avatar-Maker.png);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.titulo_formacao {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FF4DBC;
+}
+
+.ajuste-lista {
+    display: flex;
+    margin-bottom: 200px;
+    flex-direction: column;
+}
+
+.informacoes {
+    padding: 32px;
+}
+
+.informacoes a {
+    text-decoration: none;
+}
+
+.informacoes ul li {
+    margin-bottom: 32px;
+}
+
+.titulo_academico {
+    font-weight: 700;
+    font-size: 22px;
+
+    color: #828282;
+    margin-bottom: 5px;
+
+}
+
+.titulo_projeto {
+    font-weight: 700;
+    font-size: 22px;
+
+    color: #661E4B;
+    margin-bottom: 5px;
+
+}
+
+.site_academico {  
+    font-weight: 400;
+    font-size: 18px;
+    color: #2F80ED;
+}
+
+.descricao_academica {
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.formacao {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.projetos {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.rodape {
+    background-color: #BE89CB;
+    height: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.remove_link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.lista-rodape li {
+    color: #fff;
+    font-weight: 200;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.lista-rodape a {
+    text-decoration: none;
+    color: #fff;
+}
